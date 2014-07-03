@@ -1,16 +1,9 @@
 package br.com.estudo.oca.polimorfismo;
 
-public class B extends A{
+public class B{
 	
 	public void ano(){
-		System.out.println("2014 06");
-	}
-	
-	void polimosfismo(){
-		
-		ano();
-		
-		super.ano();
-		
-	}
+		System.out.println("classe B");
+	}	
+
 }

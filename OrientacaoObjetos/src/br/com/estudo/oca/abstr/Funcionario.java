@@ -7,7 +7,7 @@ abstract class Funcionario {
 	public double getBonificacao() {
 		return this.salario * 1.2;
 	}
-	
+
 	abstract double getSalario();
 
 }

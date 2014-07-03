@@ -1,12 +1,13 @@
 package br.com.estudo.oca.polimorfismo;
 
-public class Main {
+public class Main1 {
 	
 	public static void main(String[] args) {
-		B b = new B();
 		
-		b.ano();		
+		B b = new A();
+		
+		b.ano();	
 		
 	}
-		
+
 }

@@ -1,12 +1,10 @@
 package br.com.estudo.oca.abstr;
 
-class Gerente extends Funcionario{
+class Gerente extends Funcionario {
 
 	@Override
-	double getSalario() {
-		return 100;
+	double getSalario() {	
+		return super.salario = 1200;
 	}
-	
-
 
 }
