@@ -15,5 +15,7 @@ public class A {
 		System.out.println(Math.round(-4.1));
 		
 		System.out.println(Math.round(-4.5));
+		
+		System.out.println(Math.floor(4.6));
 	}
 }

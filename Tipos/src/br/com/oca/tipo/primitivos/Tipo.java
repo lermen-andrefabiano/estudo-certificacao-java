@@ -17,9 +17,9 @@ public class Tipo {
 	double d; //64 bits - 8 bytes
 	
 	public static void main(String[] args) {
-		b = 127; // 128 nao aceita
+		b = 127; // 128 não aceita, 128 ja é um int
 		
-		s = 32767;
+		s = 32767; // 32768 não aceita, ja é um int
 		
 		c = 3;
 		

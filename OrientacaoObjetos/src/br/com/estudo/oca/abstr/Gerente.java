@@ -6,5 +6,11 @@ class Gerente extends Funcionario {
 	double getSalario() {	
 		return super.salario = 1200;
 	}
+	
+	@Override
+	public double getBonificacao() {
+		// TODO Auto-generated method stub
+		return super.getBonificacao();
+	}
 
 }

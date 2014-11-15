@@ -21,7 +21,7 @@ public class A {
 
 	public static void main(String[] args) {
 		b();		
-		c();
+		//c();
 	}
 
 }
