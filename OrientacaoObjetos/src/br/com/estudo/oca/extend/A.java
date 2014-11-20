@@ -7,7 +7,7 @@ public class A {
 	}
 	
 	public void um(){
-		System.out.println("um");
+		System.out.println("um A");
 	}
 	
 }

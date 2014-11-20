@@ -6,11 +6,16 @@ public class Main {
 		metodoSplit1();
 		
 		metodoSplit2();
+		
+		String str = "ola mundo java";
+		
+		System.out.println(str.toString());
+		
 	}
 
 	/**
 	 * 
-	 * Metódo split
+	 * Metï¿½do split
 	 * 
 	 */
 	static void metodoSplit1() {

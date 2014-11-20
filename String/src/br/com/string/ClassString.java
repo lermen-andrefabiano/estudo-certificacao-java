@@ -6,11 +6,11 @@ public class ClassString{
 
 	public static void main(String[] args) {
 
-		// declaração e instanciação (mais prático)
-		String ola = "Alô Mundo Java !";
-		String nome = "Prof. Omero Francisco Bertol.";
+		// declaraÃ§Ã£o de instancia mais pratica
+		String ola = "Ola Mundo Java !";
+		String nome = "Prof. Omero Francisco Bertol";
 
-		// concatenação (\n = pula linha)
+		// concatenaï¿½ï¿½o (\n = pula linha)
 		String aula = ola + "\nby " + nome;
 		System.out.println(aula);
 				
@@ -21,9 +21,9 @@ public class ClassString{
 		
 		System.out.printf("\n");
 		
-		ola.concat(" ola atx");
+		ola.concat(" ola Java");
 		
-		nome += "e maria";
+		nome += " e maria";
 		
 		System.out.println(ola);
 		

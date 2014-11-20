@@ -17,11 +17,11 @@ public class Tipo {
 	double d; //64 bits - 8 bytes
 	
 	public static void main(String[] args) {
-		b = 127; // 128 n„o aceita, 128 ja È um int
+		b = 127; // 128 n√£o aceita, 128 ja √© um int
 		
-		s = 32767; // 32768 n„o aceita, ja È um int
+		s = 32767; // 32768 n√£o aceita, ja  √© um int
 		
-		c = 3;
+		c = 'A';
 		
 		System.out.println(b);
 		
