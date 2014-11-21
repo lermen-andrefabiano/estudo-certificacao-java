@@ -9,14 +9,14 @@ public class B {
 			}
 			System.out.println(i);
 		}
-		
+
 		int t = 0;
 	}
 
 	public static void main(String[] args) {
 
 		new B().usoContinue();
-		
+
 	}
 
 }
