@@ -1,6 +1,8 @@
 package br.com.lermen.acajp.laco;
 
 public class A {
+	
+	protected int pro = 10;
 
 	static void c() {
 		for (int i = -10; i < 10; i++) {

@@ -16,6 +16,9 @@ public class B {
 	public static void main(String[] args) {
 
 		new B().usoContinue();
+		
+		A a = new A();
+		System.out.println(a.pro); // acesso permitido ao mebro protected
 
 	}
 

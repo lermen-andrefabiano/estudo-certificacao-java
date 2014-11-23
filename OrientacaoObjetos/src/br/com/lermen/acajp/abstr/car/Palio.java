@@ -1,32 +1,33 @@
 package br.com.lermen.acajp.abstr.car;
 
-
-public class Palio extends Fiat{
+public class Palio extends Fiat {
 
 	@Override
 	public void isFiat() {
-		// TODO Auto-generated method stub
+		passageiros = 5;
 		
+		setEsterpe('S');
 	}
 
 	@Override
 	public void getCor() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	public void potencia() {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 	@Override
 	protected void acelerar() {
-		// TODO Auto-generated method stub
-		
+		super.motor();
 	}
-
 	
+	public static void main(String[] args) {
+		new Palio().acelerar();
+	}
 
 }

@@ -2,7 +2,7 @@ package br.com.lermen.acajp.extend;
 
 public class B extends A {
 
-	public void um() {
+	public void um() {		
 		System.out.println("um do B");
 	}
 
@@ -12,6 +12,10 @@ public class B extends A {
 		A a = new B();
 
 		a.um();
+		
+		System.out.println(a.p); //acesso ao membro protected
+		
+		
 
 	}
 

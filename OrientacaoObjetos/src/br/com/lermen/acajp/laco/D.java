@@ -1,6 +1,6 @@
 package br.com.lermen.acajp.laco;
 
-public class D {
+public class D extends br.com.lermen.acajp.extend.A{
 	
 	void go(){
 		int i = 0;
@@ -14,6 +14,9 @@ public class D {
 			System.out.println("do while");
 			i++;
 		}while(i == 1);
+		
+		
+		p = 1; // acesso ao mebro protected da classe A do pacote externo
 		
 	}
 	

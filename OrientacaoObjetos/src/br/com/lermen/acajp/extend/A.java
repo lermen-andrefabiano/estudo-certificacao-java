@@ -1,6 +1,8 @@
 package br.com.lermen.acajp.extend;
 
 public class A {
+	
+	protected int p = 10;
 
 	public A() {
 		System.out.println("A1");
