@@ -17,7 +17,7 @@ public class Palio extends Fiat {
 
 	@Override
 	public void potencia() {
-		// TODO Auto-generated method stub
+		naoMudaNunca();
 
 	}
 
@@ -28,6 +28,6 @@ public class Palio extends Fiat {
 	
 	public static void main(String[] args) {
 		new Palio().acelerar();
-	}
+	}	
 
 }
