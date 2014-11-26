@@ -1,5 +1,7 @@
 package br.com.lermen.acajp.tipo.vetor;
 
+import java.util.Arrays;
+
 public class V {	
 
 	static int v[] = { 10, 20, 30, 40, 50 };
@@ -17,11 +19,13 @@ public class V {
 		goV2();
 		
 		goV3();
+		
+		System.out.println(Arrays.toString(v));
 
 	}
 
-	static void goV() {
-		for (int i = 0; i < v.length; i++) {
+	static void goV() {	
+		for (int i = 0; i < v.length; i++) {			
 			System.out.println(v[i]);
 		}
 	}
