@@ -9,6 +9,9 @@ class Gerente extends Funcionario {
 
 	@Override
 	public double getBonificacao() {
+		
+		getSal();
+		
 		return super.getBonificacao();
 	}
 
@@ -16,5 +19,10 @@ class Gerente extends Funcionario {
 	String um() {
 		return "oi";
 	}
+	
+	public int getSal(int i){
+		return 1;
+	}
+	
 
 }
