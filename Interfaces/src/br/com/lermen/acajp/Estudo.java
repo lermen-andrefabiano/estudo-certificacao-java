@@ -22,5 +22,11 @@ public class Estudo extends ShowDeBola implements Sabado {
 		// TODO Auto-generated method stub
 
 	}
+	
+	//nao pode
+	//private void go() {
+		// TODO Auto-generated method stub
+
+	//}
 
 }

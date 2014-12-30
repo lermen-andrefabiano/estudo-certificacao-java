@@ -8,14 +8,15 @@ public class B extends A {
 
 	public static void main(String[] args) {
 		// System.out.println("B");
+		
+		B b = new B();
 
 		A a = new B();
-
 		a.um();
 		
-		System.out.println(a.p); //acesso ao membro protected
+		//B b1 = new A(); // a super classe pode receber uma instancia da sub classe, mas a sub classe não pode receber uma instancia da super classe
 		
-		
+		System.out.println(a.p); //acesso ao membro protected	
 
 	}
 
