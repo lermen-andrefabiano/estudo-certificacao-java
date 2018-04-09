@@ -1,4 +1,4 @@
-package br.com.lermen.acajp.trycatch;
+package br.com.lermen.ocajp.trycatch;
 
 public final class T {
 	

@@ -1,6 +1,6 @@
-package br.com.lermen.acajp.fin;
+package br.com.lermen.ocajp.fin;
 
-import br.com.lermen.acajp.fin.Sequence;
+import br.com.lermen.ocajp.fin.Sequence;
 
 public class Sequence {
 	

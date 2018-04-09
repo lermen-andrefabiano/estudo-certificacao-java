@@ -1,4 +1,4 @@
-package br.com.lermen.acajp.fin;
+package br.com.lermen.ocajp.fin;
 
 public class Gamma extends Beta {
 	String getType() {

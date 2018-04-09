@@ -1,4 +1,4 @@
-package br.com.lermen.acajp.enuns;
+package br.com.lermen.ocajp.enuns;
 
 import java.lang.reflect.Field;
 

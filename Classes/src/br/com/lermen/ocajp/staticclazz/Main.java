@@ -1,4 +1,4 @@
-package br.com.lermen.acajp.staticclazz;
+package br.com.lermen.ocajp.staticclazz;
 
 public class Main {
 

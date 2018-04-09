@@ -1,4 +1,4 @@
-package br.com.lermen.acajp.threads;
+package br.com.lermen.ocajp.threads;
 
 public class B implements Runnable {
 

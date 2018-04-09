@@ -1,4 +1,4 @@
-package br.com.lermen.acajp.math;
+package br.com.lermen.ocajp.math;
 
 public class A {
 
