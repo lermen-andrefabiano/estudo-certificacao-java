@@ -1,0 +1,10 @@
+jar cvmf manifest.mf JarTeste.jar Teste.class
+
+
+javac -d lermen commandline/CommandLine.java
+
+java -classpath lermen commandline.CommandLine andre
+
+javac commandline/CommandLine.java
+
+java commandline.CommandLine sss
