@@ -18,10 +18,14 @@ public class A {
 
 	String _233 = "g";
 
+	String $$$$$$$3 = "s";
+	
 	String $3 = "s";
 
 	public static void main(String[] args) {
 		String str = "java";
+		
+		str.concat("tttt");
 		
 		str.toUpperCase();
 		
