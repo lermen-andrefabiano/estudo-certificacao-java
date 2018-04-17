@@ -15,6 +15,8 @@ public class A {
 	// int u@;
 
 	String p785 = "a";
+	
+	int _3dsfsdfsdf = 4;
 
 	String _233 = "g";
 
